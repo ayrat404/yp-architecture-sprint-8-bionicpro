@@ -1,0 +1,7 @@
+### Get reports (requires prothetic_user role)
+GET {{baseUrl}}/reports
+Authorization: Bearer {{jwt_token}}
+
+### Variables
+@baseUrl = http://localhost:5000
+@jwt_token = YOUR_JWT_TOKEN_HERE
